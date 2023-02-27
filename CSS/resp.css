@@ -3,10 +3,13 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    list-style: none;
+    text-decoration: none;
   }
   body{
     background-color: beige ;
      margin: 0;
+
   }
  
   #titulo{
@@ -26,6 +29,9 @@
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     border: 2px solid hwb(260 42% 57%);
 }
+   
+    
+    
 
 
   #myclick{
@@ -45,18 +51,25 @@
       
     }
 
+    #myclick:hover{
+      color: black;
+      background-color: hsl(120, 44%, 35%);
+      font-size: 130%;
+    transition: 0.2s;
+     }
+
   #tercerclick{
     background-color: #230de4;
     padding: 13px 20px;
     text-align: center;
     display: inline-block;
     color: white ;
-    font-size:130%;
+    font-size:100%;
     border: 3px solid rgb(17, 17, 17);
     border-radius: 12px;
   }
 
- .centro{
+  .centro{
     text-align: center;
   }
 
@@ -132,5 +145,6 @@ div.gallery {
       width: 100%;
     }
   }
+  
   
 
